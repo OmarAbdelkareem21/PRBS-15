@@ -1,0 +1,2 @@
+PatternDetector.v
+PatternDetector_tb.v
