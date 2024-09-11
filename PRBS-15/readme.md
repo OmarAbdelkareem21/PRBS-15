@@ -55,7 +55,7 @@ Figures 4 to 8 present various test cases that evaluate the behavior of the PRBS
 
 Test cases 2 to 5 validate the functionality of the pattern detector, showing that it correctly raises a flag after detecting a pattern 4 times or identifies any byte or bit errors within the sequence.
 
-![Alt text](./Wrapper.png)
+![Alt text](./PRBS-15/Wrapper.PNG)
 *Figure 10: Wrapper Detector Test Case 6*
 
 The wrapper's behavior mirrors that of the pattern detector, indicating a successful integration.
