@@ -42,7 +42,7 @@ n checks, it raises a flag to '1', indicating that the pattern matches without a
 ![Alt text](./PDTC1.png)
 *Figure 6: Pattern Detector Test Case 2*
 
-![Alt text](PRBS-15/PDT2.PNG)
+![Alt text](PRBS-15/PDT2)
 *Figure 7: Pattern Detector Test Case 3*
 
 ![Alt text](./PDT3.png)
