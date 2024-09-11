@@ -37,19 +37,19 @@ n checks, it raises a flag to '1', indicating that the pattern matches without a
 - Random Seed = `0x2ABC`
   
 ![Alt text](./PRBSSim.png)
-*Figure 5: PRBS Block Test Case 1*
+
 
 ![Alt text](./PDTC1.png)
-*Figure 6: Pattern Detector Test Case 2*
+
 
 ![Alt text](PRBS-15/PDT2)
-*Figure 7: Pattern Detector Test Case 3*
+
 
 ![Alt text](./PDT3.png)
-*Figure 8: Pattern Detector Test Case 4*
+
 
 ![Alt text](./PDT4.png)
-*Figure 9: Pattern Detector All Test Cases*
+
 
 Figures 4 to 8 present various test cases that evaluate the behavior of the PRBS (Pseudorandom Binary Sequence) generator and Pattern Detector blocks separately. The test cases confirm the correct operation of the PRBS by demonstrating its ability to output the sequence byte-by-byte in a serial manner for n iterations.
 
