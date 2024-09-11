@@ -22,10 +22,10 @@ n checks, it raises a flag to '1', indicating that the pattern matches without a
 ![Alt text](./PRBS-15/PatternDetectorFSM.PNG)
 *Figure 2: Pattern Detector FSM*
 
-![Alt text](./TOP.png)
+![Alt text](./PRBS-15/Top.PNG)
 *Figure 3: Wrapper Block*
 
-![Alt text](./WD.png)
+![Alt text](./PRBS-15/WD.PNG)
 *Figure 4: Expected Output*
 
 
@@ -36,26 +36,26 @@ n checks, it raises a flag to '1', indicating that the pattern matches without a
 - n = `4`
 - Random Seed = `0x2ABC`
   
-![Alt text](./PRBSSim.png)
+![Alt text](./PRBS-15/PRBSSim.png)
 *Figure 5: PRBS Block Test Case 1*
 
-![Alt text](./PDTC1.png)
+![Alt text](./PRBS-15/PDTC1.png)
 *Figure 6: Pattern Detector Test Case 2*
 
 ![Alt text](./PRBS-15/PDT2.PNG)
 *Figure 7: Pattern Detector Test Case 3*
 
-![Alt text](./PDT3.png)
+![Alt text](./PRBS-15/PDT3.png)
 *Figure 8: Pattern Detector Test Case 4*
 
-![Alt text](./PDT4.png)
+![Alt text](./PRBS-15/PDT4.png)
 *Figure 9: Pattern Detector All Test Cases*
 
 Figures 4 to 8 present various test cases that evaluate the behavior of the PRBS (Pseudorandom Binary Sequence) generator and Pattern Detector blocks separately. The test cases confirm the correct operation of the PRBS by demonstrating its ability to output the sequence byte-by-byte in a serial manner for n iterations.
 
 Test cases 2 to 5 validate the functionality of the pattern detector, showing that it correctly raises a flag after detecting a pattern 4 times or identifies any byte or bit errors within the sequence.
 
-![Alt text](./Wrapper.png)
+![Alt text](./PRBS-15/Wrapper.png)
 *Figure 10: Wrapper Detector Test Case 6*
 
 The wrapper's behavior mirrors that of the pattern detector, indicating a successful integration.
@@ -66,11 +66,11 @@ The wrapper's behavior mirrors that of the pattern detector, indicating a succes
   
 The input was chosen to be 8 bits and then converted to parallel within the PRBS because the Zybo board cannot support a 32-bit input bus.
 
-![ALT text](./Screenshot%202024-09-11%20113818.jpg)
-![ALT text](./Screenshot%202024-09-11%20113920.jpg)
-![ALT text](./Screenshot%202024-09-11%20115810.jpg)
-![ALT text](./Screenshot%202024-09-11%20115828.jpg)
-![ALT text](./Screenshot%202024-09-11%20115904.jpg)
-![ALT text](./Screenshot%202024-09-11%20115849.jpg)
+![ALT text](./PRBS-15/Screenshot%202024-09-11%20113818.jpg)
+![ALT text](./PRBS-15/Screenshot%202024-09-11%20113920.jpg)
+![ALT text](./PRBS-15/Screenshot%202024-09-11%20115810.jpg)
+![ALT text](./PRBS-15/Screenshot%202024-09-11%20115828.jpg)
+![ALT text](./PRBS-15/Screenshot%202024-09-11%20115904.jpg)
+![ALT text](./PRBS-15/Screenshot%202024-09-11%20115849.jpg)
 
 ---
