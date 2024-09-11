@@ -16,16 +16,16 @@ n repetitions. It verifies each byte against the expected PRBS-15 pattern. If al
 𝑛
 n checks, it raises a flag to '1', indicating that the pattern matches without any errors.
 
-![Alt text](./PRBS.png)
+![Alt text](PRBS.png)
 *Figure 1: PRBS - 15 Block*
 
-![Alt text](./PatternDetectorFSM.png)
+![Alt text](PatternDetectorFSM.png)
 *Figure 2: Pattern Detector FSM*
 
-![Alt text](./TOP.png)
+![Alt text](TOP.png)
 *Figure 3: Wrapper Block*
 
-![Alt text](./WD.png)
+![Alt text](WD.png)
 *Figure 4: Expected Output*
 
 
