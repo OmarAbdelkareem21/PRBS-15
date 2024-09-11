@@ -19,7 +19,7 @@ n checks, it raises a flag to '1', indicating that the pattern matches without a
 ![Alt text](./PRBS-15/PRBS.PNG)
 *Figure 1: PRBS - 15 Block*
 
-![Alt text](./PatternDetectorFSM.png)
+![Alt text](./PRBS-15/PatternDetectorFSM.PNG)
 *Figure 2: Pattern Detector FSM*
 
 ![Alt text](./TOP.png)
